@@ -1,0 +1,38 @@
+# local runtime — never commit
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.mplconfig/
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+.tmp/
+.pytest_tmp/
+acl-reports/
+pytest-cache-files-*/
+
+# course materials and generated data are private / ephemeral
+data/course_materials/*
+!data/course_materials/.gitkeep
+!data/course_materials/README.md
+data/vector_store/*
+!data/vector_store/.gitkeep
+data/database/*
+!data/database/.gitkeep
+data/.cache/
+data/*.db
+data/*.db-*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

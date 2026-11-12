@@ -1,0 +1,23 @@
+{
+  "currency": "CNY",
+  "version": "2025-09-29",
+  "source": "https://api-docs.deepseek.com/quick_start/pricing",
+  "note": "示例默认价，仅用于费用估算。DeepSeek 可能调整价格，请以官网为准并在此处更新；无需改代码。",
+  "models": {
+    "deepseek-chat": {
+      "input_cache_hit_cny_per_million": 0.2,
+      "input_cache_miss_cny_per_million": 2.0,
+      "output_cny_per_million": 3.0
+    },
+    "deepseek-flash": {
+      "input_cache_hit_cny_per_million": 0.2,
+      "input_cache_miss_cny_per_million": 2.0,
+      "output_cny_per_million": 3.0
+    },
+    "deepseek-reasoner": {
+      "input_cache_hit_cny_per_million": 0.2,
+      "input_cache_miss_cny_per_million": 2.0,
+      "output_cny_per_million": 3.0
+    }
+  }
+}
